@@ -1,40 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>css</title>
-</head>
-<body>
-    <header>
-    <img src="./12345.png" style="width: 50px; height: 70px;">
-    <h1>Web</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="./index.html">html</a>
-             <ol>
-                <li>конспект</li>
-                <li>задание</li>
-             </ol>
-             </li>
-            <li>css</li>
-        </ul>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    </nav>
-    <main>
-        <article>
-            <h2>css</h2>
-            <p>Язык декодирования и описания внешнего вида документа, см
-             <a href="https://ru.wikipedia.org/wiki/CSS">cct</a>.
-            </p>
-        </article>
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
 
-    </main>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-    <footer>
-        2023
-    </footer>
-</body>
-</html>
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
